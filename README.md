@@ -17,7 +17,7 @@ Manga/Manhwa/Manha Downloader [Arabic]
 
 - Downlaod from 4 sites
 
-- convert to pdf
+- Convert to pdf
 
 
 #  
@@ -26,7 +26,9 @@ Manga/Manhwa/Manha Downloader [Arabic]
 `sudo git clone https://github.com/dexter-90/Manga-X.git`
 
 `cd Manga-X`
+- Then Run 
 
+`python3 MangaX.py`
 # 
 
 - Note: Gmanga Site doesn't.
