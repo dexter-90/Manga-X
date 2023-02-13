@@ -28,12 +28,8 @@ Manga/Manhwa/Manha Downloader [Arabic]
 `cd Manga-X`
 
 # 
-**You need to install librarys if you don't have it :**
 
-`pip install requests`
+- Note: Gmanga Site doesn't.
+- Note: If there a note or error etc just text me on instagram
 
-`pip install bs4`
-
-`pip install img2pdf`
-
-`pip install colorama`
+# **Instagram => u.qdq**
