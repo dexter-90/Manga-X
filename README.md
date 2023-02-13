@@ -7,7 +7,7 @@ Manga/Manhwa/Manha Downloader [Arabic]
   style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 
-# Script downlaod manga/manhwa/manha from arabic sites
+# downlaod manga/manhwa/manha from arabic sites
 
 **About Tool :**
 
