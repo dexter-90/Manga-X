@@ -2,7 +2,7 @@
 Manga/Manhwa/Manha Downloader [Arabic]
 <img
   src=""
-  alt="Alt text"
+  alt=""
   title=""
   style="display: inline-block; margin: 0 auto; max-width: 300px">
 
