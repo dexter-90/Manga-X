@@ -2,14 +2,17 @@ import os
 import re
 import time
 
+import os
+
 try:import img2pdf
 except ModuleNotFoundError:os.system('pip3 install img2pdf');import img2pdf
 try:import requests
 except ModuleNotFoundError:os.system('pip3 install requests');import requests
 try:from bs4 import BeautifulSoup
-except ModuleNotFoundError:os.system('pip3 install bs4');from bs4 import BeautifulSoup 
+except ModuleNotFoundError:os.system('pip3 install bs4');from bs4 import BeautifulSoup
 try:from colorama import Fore, Back
 except ModuleNotFoundError:os.system('pip3 install colorama');from colorama import Fore, Back
+os.system("cls || clear")
 
 
 def image2pdf(manga, chapter):
@@ -24,34 +27,6 @@ def image2pdf(manga, chapter):
         os.system(f'RMDIR MangaImages /S /Q')
     else:
         os.system('sudo rm -r MangaImages')
-
-
-def slice_text(text):
-    global img
-    soup = BeautifulSoup(str(text), "html.parser")
-    scripts = soup.find_all("script", {"class": "js-react-on-rails-component"})
-    string_data = scripts[0].get_text()
-    data = json.loads(string_data)
-    readerDataAction = data['readerDataAction']
-    readerData = readerDataAction['readerData']
-    release = readerData['release']
-    pages = release['pages']
-    storage_key = release['storage_key']
-    storage_url = "https://media.gmanga.me/uploads/releases/"
-    idk = "/mq_webp/"
-    images = []
-    for page in pages:
-        image = storage_url + storage_key + idk + page
-        img = [f"{image}.webp", f'{image}.jpg', f'{image}.png', f'{image}.jpg', f'{image}.jpg.jpg', f'{image}.jpg.webp']
-        for i in img:
-            response = requests.get(i).status_code
-            if response != 200:
-                continue
-            else:
-                images.append(i)
-                break
-        continue
-    return images
 
 
 def lekDownload(manga, start='10', end='10', good=False):
@@ -96,7 +71,7 @@ def lekDownload(manga, start='10', end='10', good=False):
             print(
                 f"{Fore.LIGHTWHITE_EX}[{Fore.CYAN}+{Fore.LIGHTWHITE_EX}] Found {len(urls) - 1} Images For Chapter {i}")
 
-            k = 10
+            k = 11
             for url in urls:
                 k += 1
 
@@ -145,7 +120,7 @@ def lekDownload(manga, start='10', end='10', good=False):
             print(
                 f"{Fore.LIGHTWHITE_EX}[{Fore.CYAN}+{Fore.LIGHTWHITE_EX}] Found {len(urls) - 1} Images For Chapter {start}")
 
-            k = 10
+            k = 11
             for url in urls:
                 k += 1
 
@@ -213,7 +188,8 @@ def azoraDownload(manga, start='10', end='10', good=False):
         print(
             f"{Fore.LIGHTWHITE_EX}[{Fore.CYAN}+{Fore.LIGHTWHITE_EX}] Found {len(urls) - 1} Images For Chapter {start}")
 
-        k = 10
+        k = 11
+
         for url in urls:
             k += 1
 
@@ -280,7 +256,8 @@ def teamxDownload(manga, start='10', end='10', good=False):
         print(
             f"{Fore.LIGHTWHITE_EX}[{Fore.CYAN}+{Fore.LIGHTWHITE_EX}] Found {len(urls) - 1} Images For Chapter {start}")
 
-        k = 10
+        k = 11
+
         for url in urls:
             k += 1
 
@@ -301,7 +278,7 @@ def teamxDownload(manga, start='10', end='10', good=False):
 
 
 def gmangaDownload(manga, ID, start='10', end='10', good=False):
-    global goodfile
+    global goodfile, urls
     mangaName = str(manga).replace(" ", "-")
 
     if good:
@@ -338,7 +315,8 @@ def gmangaDownload(manga, ID, start='10', end='10', good=False):
             slice_text(response.text)
             print(f"{Fore.LIGHTWHITE_EX}[{Fore.CYAN}+{Fore.LIGHTWHITE_EX}] Found {len(urls) - 1} Images For Chapter {i}")
 
-            k = 10
+            k = 11
+
             for url in urls:
                 k += 1
 
@@ -380,7 +358,8 @@ def gmangaDownload(manga, ID, start='10', end='10', good=False):
             print(
                 f"{Fore.LIGHTWHITE_EX}[{Fore.CYAN}+{Fore.LIGHTWHITE_EX}] Found {len(urls) - 1} Images For Chapter {start}")
 
-            k = 10
+            k = 11
+
             for url in urls:
                 k += 1
 
@@ -448,7 +427,8 @@ def _3ashqDownload(manga, start='10', end='10', good=False):
 
             print(
                 f"{Fore.LIGHTWHITE_EX}[{Fore.CYAN}+{Fore.LIGHTWHITE_EX}] Found {len(urls) - 1} Images For Chapter {i}")
-            k = 10
+            k = 11
+
             for url in urls:
                 k += 1
 
@@ -489,7 +469,8 @@ def _3ashqDownload(manga, start='10', end='10', good=False):
 
         print(
             f"{Fore.LIGHTWHITE_EX}[{Fore.CYAN}+{Fore.LIGHTWHITE_EX}] Found {len(urls) - 1} Images For Chapter {start}")
-        k = 10
+        k = 11
+
         for url in urls:
             k += 1
 
