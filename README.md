@@ -31,7 +31,7 @@ Manga/Manhwa/Manha Downloader [Arabic]
 `python3 MangaX.py`
 # 
 
-- Note: Gmanga Site doesn't.
+- Note: Gmanga Site doesn't Work.
 - Note: If there a note or error etc just text me on instagram
 
 # **Instagram => u.qdq**
