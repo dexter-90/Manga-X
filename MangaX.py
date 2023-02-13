@@ -3,13 +3,13 @@ import re
 import time
 
 try:import img2pdf
-except ModuleNotFoundError:os.system('pip3 install img2pdf')
+except ModuleNotFoundError:os.system('pip3 install img2pdf');import img2pdf
 try:import requests
-except ModuleNotFoundError:os.system('pip3 install requests')
+except ModuleNotFoundError:os.system('pip3 install requests');import requests
 try:from bs4 import BeautifulSoup
-except ModuleNotFoundError:os.system('pip3 install bs4')
+except ModuleNotFoundError:os.system('pip3 install bs4');from bs4 import BeautifulSoup 
 try:from colorama import Fore, Back
-except ModuleNotFoundError:os.system('pip3 install colorama')
+except ModuleNotFoundError:os.system('pip3 install colorama');from colorama import Fore, Back
 
 
 def image2pdf(manga, chapter):
