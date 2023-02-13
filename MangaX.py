@@ -1,7 +1,6 @@
 import os
 import re
 import time
-
 import os
 
 try:import img2pdf
@@ -23,10 +22,10 @@ def image2pdf(manga, chapter):
     with open(f"{manga}/Chapter{chapter}.pdf", "wb") as D:
         D.write(pdf)
         D.close()
-    if os.name == 'nt':
-        os.system(f'RMDIR MangaImages /S /Q')
-    else:
+    if "linux" in sys.platform:
         os.system('sudo rm -r MangaImages')
+    else:
+        os.system(f'RMDIR MangaImages /S /Q')
 
 
 def lekDownload(manga, start='10', end='10', good=False):
