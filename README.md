@@ -29,9 +29,12 @@ Manga/Manhwa/Manha Downloader [Arabic]
 - Then Run 
 
 `python3 MangaX.py`
+
 # 
-
-- Note: Gmanga Site doesn't Work.
-- Note: If there a note or error etc just text me on instagram
-
-# **Instagram => u.qdq**
+---------------------
+**Notes :**
+- Want to modify the tool? Yes ! Modify the tool with your own mod. I will upload your mod to github and your name will be on the developer list!
+- Gmanga Site doesn't Work.
+- If there a note or error etc just text me on instagram
+---------------------
+By Dexter <a class="" href="https://www.instagram.com/u.qdq/ 🔷</a>
