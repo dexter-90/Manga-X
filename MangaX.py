@@ -1,3 +1,14 @@
+# ------------------ Info ---------------#
+
+# Tool Name => MANGA-X
+# Date => 2023/2/14
+# Last Update => 2023/2/14
+# Developers => ["DEXTER"]
+# MAIN Developer GitHub => Dexter-90
+# MAIN Developer Instagram => u.qdq
+
+# ---------------------------------------#
+
 import os
 import re
 import time
@@ -820,7 +831,7 @@ if __name__ == '__main__':
         ██  ██  ██ ██   ██ ██  ██ ██ ██    ██ ██   ██     {Fore.RED} ██ ██{Fore.LIGHTWHITE_EX}
         ██      ██ ██   ██ ██   ████  ██████  ██   ██     {Fore.RED}██   ██{Fore.LIGHTWHITE_EX}
 
-			{Fore.YELLOW}By Dexter @u.qdq
+		    {Fore.YELLOW}By Dexter @u.qdq
 		    GitHub: https://github.com/dexter-90{Fore.LIGHTWHITE_EX}
 """)
     Settings()
