@@ -32,8 +32,10 @@ Manga/Manhwa/Manha Downloader
 
 ---------------------
 **Notes :**
-- Want to modify the tool? Modify the tool. And i will upload your mod to github and your name will be on the developers list! (Arabic, English, doesn't matter)
 - If there a note or error etc just text me on instagram
 - Gmanga Site doesn't Work.
 ---------------------
-By Dexter | <a class="" href="https://www.instagram.com/u.qdq">Instagram ☠</a> 
+
+# Want to modify the tool? Modify the tool. And i will upload your mod to github and your name will be on the developers list! (Arabic, English, doesn't matter)
+
+**By Dexter** | <a class="" href="https://www.instagram.com/u.qdq">**Instagram** ☠</a> 
