@@ -1,5 +1,5 @@
 # Manga-X
-Manga/Manhwa/Manha Downloader [Arabic]
+Manga/Manhwa/Manha Downloader
 <img
   src=""
   alt=""
@@ -20,7 +20,7 @@ Manga/Manhwa/Manha Downloader [Arabic]
 - Convert to pdf
 
 
-#  
+---------------------  
 **install in kali linux :**
 
 `sudo git clone https://github.com/dexter-90/Manga-X.git`
@@ -30,11 +30,10 @@ Manga/Manhwa/Manha Downloader [Arabic]
 
 `python3 MangaX.py`
 
-# 
 ---------------------
 **Notes :**
-- Want to modify the tool? Yes ! Modify the tool with your own mod. I will upload your mod to github and your name will be on the developer list!
-- Gmanga Site doesn't Work.
+- Want to modify the tool? Modify the tool. And i will upload your mod to github and your name will be on the developers list! (Arabic, English, doesn't matter)
 - If there a note or error etc just text me on instagram
+- Gmanga Site doesn't Work.
 ---------------------
-By Dexter <a class="" href="https://www.instagram.com/u.qdq/ 🔷</a>
+By Dexter | <a class="" href="https://www.instagram.com/u.qdq">Instagram ☠</a> 
